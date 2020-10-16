@@ -20,10 +20,12 @@ RUN\
  apt-get update &&\
  apt-get install -y\
   cmake\
+  curl\
   doxygen-latex\
   g++\
   git\
   graphviz\
+  jq\
   libboost-all-dev\
   libgraphviz-dev\
   libpam0g-dev\
