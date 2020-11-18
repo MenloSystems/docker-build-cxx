@@ -54,9 +54,9 @@ RUN\
  &&\
  dpkg -i /tmp/qtquickcontrols2-5-dev_* &&\
  rm /tmp/qtquickcontrols2-5-dev_* &&\
- git -C /tmp clone https://github.com/agateau/doxyqml.git &&\
+ git -C /tmp clone https://invent.kde.org/sdk/doxyqml.git &&\
  git -C /tmp/doxyqml config advice.detachedHead false &&\
- git -C /tmp/doxyqml checkout edf31ea22 &&\
+ git -C /tmp/doxyqml checkout 85800657 &&\
  (cd /tmp/doxyqml; ./setup.py install) &&\
  rm -rf /tmp/doxyqml &&\
  apt-get autoremove --purge -y python3-setuptools &&\
