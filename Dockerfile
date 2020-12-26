@@ -43,6 +43,7 @@ RUN\
   pkg-config\
   pandoc\
   python3\
+  python3-lxml\
   python3-setuptools\
   qtbase5-private-dev\
   qtdeclarative5-private-dev\
@@ -54,10 +55,15 @@ RUN\
  &&\
  dpkg -i /tmp/qtquickcontrols2-5-dev_* &&\
  rm /tmp/qtquickcontrols2-5-dev_* &&\
+ git -C /tmp clone https://github.com/gcovr/gcovr &&\
+ git -C /tmp/gcovr config advice.detachedHead false &&\
+ git -C /tmp/gcovr checkout 4240ddcd &&\
+ (cd /tmp/gcovr; python3 setup.py install) &&\
+ rm -rf /tmp/gcovr &&\
  git -C /tmp clone https://invent.kde.org/sdk/doxyqml.git &&\
  git -C /tmp/doxyqml config advice.detachedHead false &&\
  git -C /tmp/doxyqml checkout 85800657 &&\
- (cd /tmp/doxyqml; ./setup.py install) &&\
+ (cd /tmp/doxyqml; python3 setup.py install) &&\
  rm -rf /tmp/doxyqml &&\
  apt-get autoremove --purge -y python3-setuptools &&\
  rm -rf /var/lib/apt/lists/*

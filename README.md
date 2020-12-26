@@ -23,6 +23,7 @@ Compiling
 ---------
 
 * g++
+* gcovr
 * libboost-all-dev
 * libgraphviz-dev
 * libpam0g-dev
@@ -35,6 +36,7 @@ Compiling
 * libqwt-qt5-dev
 * libreadline-dev
 * pkg-config
+* python3-lxml
 * qml-module-qtqml
 * qml-module-qtqml-statemachine
 * qml-module-qttest
@@ -44,6 +46,8 @@ Compiling
 
 The qtquickcontrols2-5-dev package is patched to also include private
 headers. See [#958521][2] for details.
+
+In addition, uses python3-setuptools during the installation of gcovr.
 
 Documentation
 -------------
