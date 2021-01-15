@@ -51,6 +51,7 @@ RUN\
   qml-module-qtqml-statemachine\
   qml-module-qttest\
   qtquickcontrols2-5-dev\
+  sudo\
   xsltproc\
  &&\
  dpkg -i /tmp/qtquickcontrols2-5-dev_* &&\

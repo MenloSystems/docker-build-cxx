@@ -23,7 +23,6 @@ Compiling
 ---------
 
 * g++
-* gcovr
 * libboost-all-dev
 * libgraphviz-dev
 * libpam0g-dev
@@ -47,6 +46,13 @@ Compiling
 The qtquickcontrols2-5-dev package is patched to also include private
 headers. See [#958521][2] for details.
 
+Testing
+-------
+
+* gcovr
+* sudo
+* xsltproc
+
 In addition, uses python3-setuptools during the installation of gcovr.
 
 Documentation
@@ -58,7 +64,6 @@ Documentation
 * mscgen
 * pandoc
 * python3
-* xsltproc
 
 In addition, uses python3-setuptools during the installation of doxyqml.
 
