@@ -34,6 +34,7 @@ Compiling
 * libqt5websockets5-dev
 * libqwt-qt5-dev
 * libreadline-dev
+* libssl-dev
 * pkg-config
 * python3-lxml
 * qml-module-qtqml

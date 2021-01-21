@@ -37,6 +37,7 @@ RUN\
   libqt5websockets5-dev\
   libqwt-qt5-dev\
   libreadline-dev\
+  libssl-dev\
   make\
   mscgen\
   ninja-build\
