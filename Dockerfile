@@ -64,7 +64,7 @@ RUN\
  rm -rf /tmp/gcovr &&\
  git -C /tmp clone https://invent.kde.org/sdk/doxyqml.git &&\
  git -C /tmp/doxyqml config advice.detachedHead false &&\
- git -C /tmp/doxyqml checkout 85800657 &&\
+ git -C /tmp/doxyqml checkout 1fd5a64 &&\
  (cd /tmp/doxyqml; python3 setup.py install) &&\
  rm -rf /tmp/doxyqml &&\
  apt-get autoremove --purge -y python3-setuptools &&\
