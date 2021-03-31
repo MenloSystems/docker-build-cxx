@@ -27,6 +27,7 @@ Compiling
 * libgraphviz-dev
 * libpam0g-dev
 * libqca-qt5-2-dev
+* libqt5scxml5-dev
 * libqt5serialbus5-dev
 * libqt5serialport5-dev
 * libqt5svg5-dev
