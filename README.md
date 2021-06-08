@@ -40,6 +40,8 @@ Compiling
 * python3-lxml
 * qml-module-qtqml
 * qml-module-qtqml-statemachine
+* qml-module-qtquick-controls2
+* qml-module-qtquick-layouts
 * qml-module-qttest
 * qtbase5-private-dev
 * qtdeclarative5-private-dev

@@ -51,6 +51,8 @@ RUN\
   qtdeclarative5-private-dev\
   qml-module-qtqml\
   qml-module-qtqml-statemachine\
+  qml-module-qtquick-controls2\
+  qml-module-qtquick-layouts\
   qml-module-qttest\
   qtquickcontrols2-5-dev\
   sudo\
