@@ -53,6 +53,7 @@ RUN\
   qml-module-qtqml-statemachine\
   qml-module-qtquick-controls2\
   qml-module-qtquick-layouts\
+  qml-module-qtquick-shapes\
   qml-module-qttest\
   qtquickcontrols2-5-dev\
   sudo\
