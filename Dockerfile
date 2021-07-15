@@ -26,6 +26,7 @@ RUN\
   git\
   graphviz\
   jq\
+  libarmadillo-dev\
   libboost-all-dev\
   libgraphviz-dev\
   libpam0g-dev\
